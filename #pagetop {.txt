@@ -1,0 +1,71 @@
+#pagetop {
+    height: 56px;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+}
+.header-left {
+    width: 70%;
+    height: 100%;
+    display: inherit;
+}
+#pagetop .header-left a {
+    color: #000;
+    text-decoration: unset;
+}
+
+#pagetop p {
+    display: inline-block;
+    height: calc(100% - 20px);
+    /* background-color: #04AA6D; */
+    margin: unset;
+    padding: 20px 16px 0px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+}
+
+#pagetop p:hover {
+    background-color: #04AA6D !important;
+    color: white!important;
+}
+
+.header-right {
+    width: 30%;
+    height: 100%;
+}
+#nav {
+    height: 32px;
+    width: 100%;
+    background-color: #282A35;
+    color: #000;
+}
+
+
+#main {
+    width: 450px;
+    min-height: 1px;
+    margin: 0px auto;
+    background-color: #ccc;
+    padding-top: 30px;
+}
+#block-1 {
+    
+}
+
+.block-2 {
+
+}
+
+
+
+
+
+
+#footer {
+
+}
+.frame-default {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(66, 59, 59);
+}
